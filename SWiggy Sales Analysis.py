@@ -15,8 +15,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-from google.colab import files
-uploaded = files.upload()
+df = pd.read_excel("swiggy_data.xlsx")
 
 import pandas as pd
 df = pd.read_excel("swiggy_data.xlsx")
